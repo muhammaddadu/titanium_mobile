@@ -14,6 +14,7 @@
 #import "TiAppiOSLocalNotificationProxy.h"
 #import "TiAppiOSNotificationActionProxy.h"
 #import "TiAppiOSNotificationCategoryProxy.h"
+#import "TiAppiOSHomeKit.h"
 
 
 @implementation TiAppiOSProxy
@@ -136,6 +137,13 @@
 	
 	[[TiApp app] registerBackgroundService:proxy];
 	return proxy;
+}
+
+// Homekit Refference
+
+-(id)homeKit
+{
+     return [[[TiAppiOSHomeKit alloc] _initWithPageContext:[self pageContext] args:nil] autorelease];
 }
 
 //TO DO: check current usernotificationsettings? how to return to user?

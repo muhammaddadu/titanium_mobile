@@ -575,6 +575,9 @@
 		ABD472F413BB73BF00502912 /* KrollCoverage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD472F313BB73BF00502912 /* KrollCoverage.m */; };
 		ABD472F513BB73BF00502912 /* KrollCoverage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD472F313BB73BF00502912 /* KrollCoverage.m */; };
 		ABD472F613BB73BF00502912 /* KrollCoverage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD472F313BB73BF00502912 /* KrollCoverage.m */; };
+		AC3DC1D019C129B800D8BB26 /* TiAppiOSHomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3DC1CF19C129B800D8BB26 /* TiAppiOSHomeKit.m */; };
+		AC3DC1D219C12A1A00D8BB26 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3DC1D119C12A1A00D8BB26 /* HomeKit.framework */; };
+		AC3DC1D619C12B7000D8BB26 /* TiAppiOSHomeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3DC1D519C12B7000D8BB26 /* TiAppiOSHomeProxy.m */; };
 		B415067A136745E20084074A /* TiFilesystemFileStreamProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3033A2136239B30034640F /* TiFilesystemFileStreamProxy.m */; };
 		B415067D136745FE0084074A /* TiFilesystemFileStreamProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3033A2136239B30034640F /* TiFilesystemFileStreamProxy.m */; };
 		B421C4121113AA9300DBCB42 /* TiUIScrollableViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B421C4111113AA9300DBCB42 /* TiUIScrollableViewProxy.m */; };
@@ -1446,6 +1449,12 @@
 		84EB33FF17A8CAA700723B1E /* TiWindowProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiWindowProxy.m; sourceTree = "<group>"; };
 		ABD472F213BB73BF00502912 /* KrollCoverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KrollCoverage.h; path = ../Classes/KrollCoverage.h; sourceTree = "<group>"; };
 		ABD472F313BB73BF00502912 /* KrollCoverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KrollCoverage.m; path = ../Classes/KrollCoverage.m; sourceTree = "<group>"; };
+		AC3DC1CE19C129B800D8BB26 /* TiAppiOSHomeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiAppiOSHomeKit.h; sourceTree = "<group>"; };
+		AC3DC1CF19C129B800D8BB26 /* TiAppiOSHomeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiAppiOSHomeKit.m; sourceTree = "<group>"; };
+		AC3DC1D119C12A1A00D8BB26 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		AC3DC1D319C12A1A00D8BB26 /* Titanium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Titanium.entitlements; sourceTree = "<group>"; };
+		AC3DC1D419C12B7000D8BB26 /* TiAppiOSHomeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiAppiOSHomeProxy.h; sourceTree = "<group>"; };
+		AC3DC1D519C12B7000D8BB26 /* TiAppiOSHomeProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiAppiOSHomeProxy.m; sourceTree = "<group>"; };
 		B421C4101113AA9300DBCB42 /* TiUIScrollableViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiUIScrollableViewProxy.h; sourceTree = "<group>"; };
 		B421C4111113AA9300DBCB42 /* TiUIScrollableViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiUIScrollableViewProxy.m; sourceTree = "<group>"; };
 		B421C4141113AAA900DBCB42 /* TiUIScrollableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiUIScrollableView.h; sourceTree = "<group>"; };
@@ -1581,6 +1590,7 @@
 				B606EF60190B42FB00663EFC /* libAPSHTTPClient.a in Frameworks */,
 				242EA11611BD956F0046A0D0 /* ExternalAccessory.framework in Frameworks */,
 				24D5C75911E6364F00F097E2 /* libtiverify.a in Frameworks */,
+				AC3DC1D219C12A1A00D8BB26 /* HomeKit.framework in Frameworks */,
 				DAA4B2AE134E3DBD00AB6011 /* libti_ios_debugger.a in Frameworks */,
 				508DB8FD16D431F100F9910E /* libti_ios_profiler.a in Frameworks */,
 			);
@@ -1740,6 +1750,10 @@
 				BB26FC7D19AB13B9007A35AF /* TiAppiOSNotificationActionProxy.m */,
 				BB26FC7E19AB13B9007A35AF /* TiAppiOSNotificationCategoryProxy.h */,
 				BB26FC7F19AB13B9007A35AF /* TiAppiOSNotificationCategoryProxy.m */,
+				AC3DC1CE19C129B800D8BB26 /* TiAppiOSHomeKit.h */,
+				AC3DC1CF19C129B800D8BB26 /* TiAppiOSHomeKit.m */,
+				AC3DC1D419C12B7000D8BB26 /* TiAppiOSHomeProxy.h */,
+				AC3DC1D519C12B7000D8BB26 /* TiAppiOSHomeProxy.m */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -2701,6 +2715,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				AC3DC1D319C12A1A00D8BB26 /* Titanium.entitlements */,
 				24CA8902111160BE0084E2DE /* Classes */,
 				24CA8903111160C30084E2DE /* Thirdparty */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -2740,6 +2755,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC3DC1D119C12A1A00D8BB26 /* HomeKit.framework */,
 				B606EF5F190B42FB00663EFC /* libAPSHTTPClient.a */,
 				841CCAD01807395C00C8DB76 /* CoreText.framework */,
 				D93DAA6716CBFD5600AD64C9 /* EventKit.framework */,
@@ -3077,6 +3093,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = Y3BW59LAK5;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Titanium" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -3330,6 +3356,7 @@
 				24CA8BDA111161FE0084E2DE /* PlatformModule.m in Sources */,
 				84A00FFF17FB833000D4BF94 /* TiPushBehavior.m in Sources */,
 				24CA8BDB111161FE0084E2DE /* OperationQueue.m in Sources */,
+				AC3DC1D019C129B800D8BB26 /* TiAppiOSHomeKit.m in Sources */,
 				24CA8BDC111161FE0084E2DE /* NetworkModule.m in Sources */,
 				24CA8BDD111161FE0084E2DE /* Mimetypes.m in Sources */,
 				24CA8BDE111161FE0084E2DE /* MediaModule.m in Sources */,
@@ -3452,6 +3479,7 @@
 				1D19459B13FF3BE500E2B4D0 /* TIDOMDocumentTypeProxy.m in Sources */,
 				3186097F192BDB4E00093482 /* AnalyticsModule.m in Sources */,
 				EF0ADCFA143F9ABF00977386 /* NSData+Additions.m in Sources */,
+				AC3DC1D619C12B7000D8BB26 /* TiAppiOSHomeProxy.m in Sources */,
 				EF0ADD1A143FA0CD00977386 /* GeolocationModule.m in Sources */,
 				2B1F65771431031E006C5D37 /* ApplicationDefaults.m in Sources */,
 				2BCD59C51429561D00DEC2E8 /* TiUIiOSToolbar.m in Sources */,
@@ -4062,6 +4090,7 @@
 			baseConfigurationReference = 241EAEC5118E2BA90081A5BE /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Titanium.entitlements;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -4106,6 +4135,7 @@
 			baseConfigurationReference = 241EAEC5118E2BA90081A5BE /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Titanium.entitlements;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Titanium_Prefix.pch;
@@ -4331,6 +4361,7 @@
 			baseConfigurationReference = 241EAEC5118E2BA90081A5BE /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Titanium.entitlements;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
